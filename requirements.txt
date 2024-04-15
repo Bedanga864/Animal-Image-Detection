@@ -12,4 +12,4 @@ jupyter_core==5.1.0
 jupyterlab==4.0.6
 notebook==6.5.2
 gunicorn==19.7.1
-Python 3.10.0
+Python==3.10.0

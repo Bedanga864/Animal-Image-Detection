@@ -2,7 +2,7 @@ matplotlib==3.6.2
 numpy==1.23.5
 opencv_python==4.8.1.78
 Pillow==10.3.0
-protobuf==5.26.1
+protobuf==4.25.0
 streamlit==1.33.0
 tensorflow==2.13.0
 keras==2.13.1

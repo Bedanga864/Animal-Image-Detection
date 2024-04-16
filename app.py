@@ -8,7 +8,7 @@ from tensorflow.keras.applications.mobilenet_v2 import MobileNetV2,preprocess_in
 st.title("Animal Image Detection Application")
 st.header("Image Classifier ")
 
-model = tf.keras.models.load_model("/content/Animal_Classification.h5")
+model = tf.keras.models.load_model("Animal_Classification.h5")
 ### load file
 uploaded_file = st.file_uploader("Upload an Image for Image classification", type=["jpg","jpeg","png"])
 

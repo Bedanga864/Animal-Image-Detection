@@ -13,4 +13,4 @@ notebook==6.5.2
 gunicorn==19.7.1
 translate
 #package-name==1.21.1
-PIL.Image
+#PIL.Image

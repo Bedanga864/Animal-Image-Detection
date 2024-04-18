@@ -38,3 +38,11 @@ st.write("Deployment:")
 st.markdown("-Choose a deployment platform (e.g.,Streamlit cloud) to host the Streamlit application.")
 st.markdown("-Deploy the application to make it accessible via a web browser.")
 
+st.markdown('''
+<style>
+[data-testid="stMarkdownContainer"] ul{
+    padding-left:40px;
+}
+</style>
+''', unsafe_allow_html=True)
+

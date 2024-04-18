@@ -10,7 +10,7 @@ def show_feedback_form():
     if st.button("Submit Feedback"):
         # Here you can process the feedback (e.g., save to a file or database)
         # For simplicity, let's just display a confirmation message
-        st.success("Thank you for your feedback!")
+        st.success("Thank you for your valuable feedback!")
 def main():
     
     # Display the feedback form

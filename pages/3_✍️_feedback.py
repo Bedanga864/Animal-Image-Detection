@@ -1,14 +1,13 @@
 import streamlit as st
 from streamlit_feedback import streamlit_feedback
-st.header("Feedback Form")
-with st.form("main", clear_on_submit=True):
-    st.write('write 👇 ...')
-   
-    feedback = streamlit_feedback(
-        feedback_type="thumbs",
-        optional_text_label="[Optional] Please provide an explanation",
-        align="flex-start"
-    )
-    st.form_submit_button('Submit Feedback')
-
-st.write(f"feedback log -{feedback}")
+def show_feedback_form():
+    st.header("Feedback Form")
+    
+    # Add input fields for the feedback form
+    feedback_text = st.text_area("Please enter your feedback here:")
+    
+    # Add a button to submit feedback
+    if st.button("Submit Feedback"):
+        # Here you can process the feedback (e.g., save to a file or database)
+        # For simplicity, let's just display a confirmation message
+        st.success("Thank you for your feedback!")

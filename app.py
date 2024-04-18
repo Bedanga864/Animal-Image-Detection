@@ -10,7 +10,7 @@ st.set_page_config(
   page_icon="📱",
 )
 
-st.sidebar.success()
+st.sidebar.success("")
 
 st.title("Animal Image Detection Application")
 st.header("Image Classifier ")

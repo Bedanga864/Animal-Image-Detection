@@ -15,4 +15,6 @@ translate
 #package-name==1.21.1#
 #PIL.Image#
 opencv-python-headless
-streamlit_feedback
+smtplib
+email.message
+

@@ -13,7 +13,7 @@ st.write("The development of the animal image classification project involves se
 st.write("Data Collection and Preparation:")
 st.markdown("Gather a diverse dataset of animal images containing different species such as cats, dogs, birds, and horses.")
 st.markdown("Organize the dataset into training, validation, and test sets.")
-st.write("Model Selection and Transfer Learning:)
+st.write("Model Selection and Transfer Learning:")
 st.markdown("Choose a pre-trained CNN model as the base architecture (e.g., VGG, ResNet, MobileNet) due to their effectiveness in image classification tasks.")
 st.markdown("Fine-tune the selected model on the collected animal dataset to adapt it to recognize specific animal classes.")
 st.write("Training the Model:")

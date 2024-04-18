@@ -11,3 +11,14 @@ def show_feedback_form():
         # Here you can process the feedback (e.g., save to a file or database)
         # For simplicity, let's just display a confirmation message
         st.success("Thank you for your feedback!")
+def main():
+    st.title("My Streamlit App")
+    
+    # Your main app content goes here
+    st.write("Welcome to my app!")
+    
+    # Display the feedback form
+    show_feedback_form()
+
+if __name__ == "__main__":
+    main()

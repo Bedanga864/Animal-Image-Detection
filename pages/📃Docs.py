@@ -41,7 +41,7 @@ st.markdown("-Deploy the application to make it accessible via a web browser.")
 st.markdown('''
 <style>
 [data-testid="stMarkdownContainer"] ul{
-    padding-left:40px;
+    list-style-position: inside;
 }
 </style>
 ''', unsafe_allow_html=True)

@@ -19,15 +19,5 @@ def save_feedback(feedback_text):
             st.success("Feedback submitted successfully!")
     else:
         st.warning("Please enter your feedback before submitting.")
-def main():
 
-    # Show the feedback form
-    feedback_text = show_feedback_form()
-
-    # If feedback is submitted, save it to file
-    if feedback_text is not None:
-        save_feedback(feedback_text)
-
-if __name__ == "__main__":
-    main()
 

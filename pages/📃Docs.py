@@ -26,7 +26,7 @@ st.markdown("Serialize the trained model to a format compatible with TensorFlow 
 st.markdown("Prepare the model for integration into the Streamlit application.")
 st.write("Streamlit Application Development:")
 st.markdown("Set up a Python environment with necessary libraries including Streamlit, TensorFlow, PIL (Pillow), and NumPy.")
-st.write("Develop a Streamlit web application (app.py) that includes:)
+st.write("Develop a Streamlit web application (app.py) that includes:")
 st.markdown("File uploader for users to upload animal images.")
 st.markdown("Preprocessing function to resize and normalize uploaded images.")
 st.markdown("Integration of the trained model to perform predictions on uploaded images.")

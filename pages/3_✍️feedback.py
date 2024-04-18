@@ -11,12 +11,4 @@ with st.form("main", clear_on_submit=True):
     )
     st.form_submit_button('Submit Feedback')
 
-
-    # Check if the form was submitted
-    if submit_button:
-        # Return the feedback text upon form submission
-        return feedback_text
-
-    # If the form was not submitted, return None
-    return None
 st.write(f"feedback log -{feedback}")

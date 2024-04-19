@@ -18,3 +18,4 @@ opencv-python-headless
 streamlit_feedback
 gspread
 oauth2client
+streamlit_gsheets

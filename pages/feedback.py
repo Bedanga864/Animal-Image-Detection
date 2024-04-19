@@ -6,7 +6,7 @@ from oauth2client.service_account import ServiceAccountCredentials
 def save_feedback_to_google_sheets(feedback):
     # Load credentials from the downloaded JSON key file
     scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
-    credentials = ServiceAccountCredentials.from_json_keyfile_name("path/to/your/credentials.json", scope)
+    credentials = ServiceAccountCredentials.from_json_keyfile_name("feedback-db-420816-d91b0eb69252.json", scope)
     
     # Authenticate with Google Sheets API
     gc = gspread.authorize(credentials)

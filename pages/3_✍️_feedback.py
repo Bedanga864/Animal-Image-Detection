@@ -1,5 +1,5 @@
 import streamlit as st
-from streamlit_feedback import streamlit_feedback
+#from streamlit_feedback import streamlit_feedback
 
 st.set_page_config(
   page_title="Animal Image Detection App",

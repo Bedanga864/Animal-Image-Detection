@@ -6,6 +6,10 @@ st.set_page_config(
   page_icon="📱",
 )
 
+def save_feedback_to_file(feedback):
+    # Define the file path where feedback logs will be stored
+    file_path = "feedback_logs.txt"
+
 st.header("Feedback")
 
 with st.form("main", clear_on_submit=True):
@@ -18,4 +22,10 @@ with st.form("main", clear_on_submit=True):
     )
     st.form_submit_button('save')
 
+if st.button("Submit Feedback"):
+        save_feedback_to_file(email, feedback_text, rating)
+        st.success("Feedback submitted successfully!")
+
+if __name__ == "__main__":
+    main()
 st.write(f"feedback log -{feedback}")

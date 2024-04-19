@@ -18,13 +18,13 @@ with st.form("main", clear_on_submit=True):
     feedback = streamlit_feedback(
         feedback_type="thumbs",
         optional_text_label="[Optional] Please write your feedback",
-        align="flex-start"
+        #align="flex-start"
     )
   
     #st.form_submit_button('save')
 
     if st.form_submit_button("Submit Feedback"):
         save_feedback_to_file(feedback)
-        st.success("Thank You for your valuable feedback",clear_on_submit=True)
+        st.success("Thank You for your valuable feedback")
 
 st.write(f"feedback log -{feedback}")

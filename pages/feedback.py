@@ -1,6 +1,7 @@
 import streamlit as st
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
+from streamlit_feedback import streamlit_feedback
 
 # Define function to save feedback to Google Sheets
 def save_feedback_to_google_sheets(feedback):

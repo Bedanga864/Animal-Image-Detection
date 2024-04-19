@@ -17,6 +17,7 @@ with st.form("main",clear_on_submit=True):
    
     feedback = streamlit_feedback(
         feedback_type="thumbs",
+        feedback_text = st.text_area("Please write your feedback", height=100)
         optional_text_label="[Optional]Please write your feedback",
         align="flex-start"
     )

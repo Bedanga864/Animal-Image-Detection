@@ -28,7 +28,7 @@ def main():
     
     with st.form("main", clear_on_submit=True):
         st.write('Click any ⬇️')
-        
+        feedback_type="thumbs"
         feedback = st.text_input("Please write your feedback (optional)")
         
         if st.form_submit_button("Submit Feedback"):

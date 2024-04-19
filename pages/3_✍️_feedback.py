@@ -21,7 +21,7 @@ with st.form("main", clear_on_submit=True):
         align="flex-start"
     )
   
-    st.form_submit_button('save')
+    #st.form_submit_button('save')
 
     if st.form_submit_button("Submit Feedback"):
         save_feedback_to_file(feedback)

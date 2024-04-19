@@ -23,7 +23,7 @@ def save_feedback_to_google_sheets(feedback):
     worksheet.append_row(row)
     st.success("Feedback saved to Google Sheets successfully!")
 
-def main():
+
     st.title("Feedback Form")
     
     with st.form("main", clear_on_submit=True):

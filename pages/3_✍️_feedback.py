@@ -20,10 +20,10 @@ with st.form("main", clear_on_submit=True):
         optional_text_label="[Optional] Please write your feedback",
         align="flex-start"
     )
-    st.form_submit_button('save')
+    #st.form_submit_button('save')
 
 if st.button("Submit Feedback"):
-        save_feedback_to_file(email, feedback_text, rating)
+        save_feedback_to_file(feedback)
         st.success("Feedback submitted successfully!")
 
 st.write(f"feedback log -{feedback}")

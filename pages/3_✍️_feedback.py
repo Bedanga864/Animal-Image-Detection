@@ -19,11 +19,11 @@ with st.form("main", clear_on_submit=True):
         feedback_type="thumbs",
         optional_text_label="[Optional] Please write your feedback",
         align="flex-start"
-    )
+    #)
     #st.form_submit_button('save')
 
 if st.form_submit_button("Submit Feedback"):
         save_feedback_to_file(feedback)
         st.success("Feedback submitted successfully!")
-
+     )
 st.write(f"feedback log -{feedback}")

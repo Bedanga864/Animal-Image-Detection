@@ -26,6 +26,4 @@ if st.button("Submit Feedback"):
         save_feedback_to_file(email, feedback_text, rating)
         st.success("Feedback submitted successfully!")
 
-if __name__ == "__main__":
-    main()
 st.write(f"feedback log -{feedback}")

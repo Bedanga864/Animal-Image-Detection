@@ -13,7 +13,7 @@ def save_feedback_to_google_sheets(feedback):
     gc = gspread.authorize(credentials)
     
     # Open the Google Sheets spreadsheet by its URL
-    sheet_url = "https://docs.google.com/spreadsheets/d/1QFg7ZEec0O1-O0Sl8MSBr9biLerqdz1TrGtAEpLCfcc/"
+    sheet_url = "https://docs.google.com/spreadsheets/d/1QFg7ZEec0O1-O0Sl8MSBr9biLerqdz1TrGtAEpLCfcc/edit?usp=sharing"
     sh = gc.open_by_url(sheet_url)
     
     # Select the first (default) worksheet

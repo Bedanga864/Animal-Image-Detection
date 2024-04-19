@@ -25,6 +25,6 @@ with st.form("main", clear_on_submit=True):
 
     if st.form_submit_button("Submit Feedback"):
         save_feedback_to_file(feedback)
-        st.success("Feedback submitted successfully!")
+        st.success("Thank You for your valuable feedback")
 
 st.write(f"feedback log -{feedback}")

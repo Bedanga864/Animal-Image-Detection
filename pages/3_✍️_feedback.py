@@ -9,8 +9,7 @@ with st.form("main", clear_on_submit=True):
     st.write('Click any ⬇️')
    
     feedback = streamlit_feedback(
-       # feedback_type="five stars",
-        rating = st.slider("Rate your experience (1 - 5 stars)", min_value=1, max_value=5, step=1),
+        feedback_type="five stars",
         optional_text_label="[Optional] Please write your feedback",
         align="flex-start"
     )

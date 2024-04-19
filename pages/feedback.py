@@ -4,6 +4,8 @@ from oauth2client.service_account import ServiceAccountCredentials
 from streamlit_gsheets import GSheetsConnection
 from streamlit_feedback import streamlit_feedback
 
+conn = st.experimental_connection("gsheets", type=GSheetsConnection)
+
 # Define function to save feedback to Google Sheets
 def save_feedback_to_google_sheets(feedback):
     # Load credentials from the downloaded JSON key file

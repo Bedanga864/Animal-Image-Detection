@@ -1,7 +1,3 @@
-st.set_page_config(
-  page_title="Animal Image Detection App",
-  page_icon="📱",
-)
 import streamlit as st
 from streamlit_feedback import streamlit_feedback
 

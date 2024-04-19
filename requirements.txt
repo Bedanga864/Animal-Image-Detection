@@ -16,5 +16,5 @@ translate
 #PIL.Image#
 opencv-python-headless
 streamlit_feedback
-
+gspread
 

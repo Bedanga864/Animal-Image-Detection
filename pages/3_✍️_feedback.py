@@ -6,8 +6,10 @@ st.set_page_config(
   page_icon="📱",
 )
 
+st.header("Feedback Form")
+
 with st.form("main", clear_on_submit=True):
-    st.write('answer ...')
+    st.write('click any ⬇️')
    
     feedback = streamlit_feedback(
         feedback_type="thumbs",

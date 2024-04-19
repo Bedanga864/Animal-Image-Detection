@@ -28,8 +28,10 @@ def main():
     
     with st.form("main", clear_on_submit=True):
         st.write('Click any ⬇️')
-        feedback_type="thumbs"
-        feedback = st.text_input("Please write your feedback (optional)")
+        feedback_type="thumbs",
+        optional_text_label="[Optional]Please write your feedback",
+        align="flex-start"
+        #feedback = st.text_input("Please write your feedback (optional)")
         
         if st.form_submit_button("Submit Feedback"):
             save_feedback_to_google_sheets(feedback)

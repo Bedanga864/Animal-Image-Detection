@@ -12,7 +12,7 @@ def save_feedback_to_file(feedback):
 
 st.header("Feedback")
 
-with st.form("main"):
+with st.form("main",clear_on_submit=True):
     st.write('click any ⬇️')
    
     feedback = streamlit_feedback(

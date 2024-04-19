@@ -17,7 +17,7 @@ with st.form("main",clear_on_submit=True):
    
     feedback = streamlit_feedback(
         feedback_type="thumbs",
-        optional_text_label="[Optional] Please write your feedback",
+        st.chat_input="[Optional] Please write your feedback",
         align="flex-start"
     )
   

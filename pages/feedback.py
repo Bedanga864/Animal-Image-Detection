@@ -13,7 +13,7 @@ def main():
       allow="geolocation; microphone; camera; fullscreen"
       src="https://form.jotform.com/241112385506449"
       frameborder="0"
-      style="min-width:100%;max-width:100%;height:539px;border:none;"
+      style="min-width:100%;max-width:100%;height:1100px;border:none;"
       scrolling="no"
     >
     

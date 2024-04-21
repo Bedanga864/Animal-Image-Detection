@@ -1,7 +1,6 @@
 import streamlit as st
 
 def main():
-    st.title("Embed JotForm in Streamlit")
 
     # Paste your JotForm embed code here
     jotform_embed_code = """

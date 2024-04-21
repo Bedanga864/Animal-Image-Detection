@@ -28,3 +28,17 @@ with st.form("main",clear_on_submit=True):
         st.success("Thank You for your valuable feedback")
 
 st.write(f"feedback log -{feedback}")
+
+
+# feed.py
+from flask import Flask, render_template
+
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+    return render_template('feedback.html')
+
+if __name__ == '__main__':
+    app.run(debug=True)
+

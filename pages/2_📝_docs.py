@@ -43,6 +43,15 @@ st.write("Deployment:")
 st.markdown("◆Choose a deployment platform (e.g.,Streamlit cloud) to host the Streamlit application.")
 st.markdown("◆Deploy the application to make it accessible via a web browser.")
 
+st.write("The result of the animal image classification project is an interactive web application that allows users to upload images of animals and receive real-time predictions about the species of the animal depicted in the image. ")
+st.write("Overall, the result of the animal image classification project is a functional and effective web application that demonstrates the integration of deep learning models with web technologies. The application serves as a practical tool for predicting animal species from images and can be further enhanced and optimized based on user feedback and evolving requirements.")
+
+st.subheader("Conclusion")
+st.write("The animal image classification project successfully demonstrates the integration of machine learning models with web technologies, resulting in an intuitive and practical application for predicting animal species from images. Through the utilization of transfer learning, a pre-trained MobileNetV2 model was fine-tuned on a dataset of animal images, achieving accurate predictions.
+
+The Streamlit web application provides a user-friendly interface, allowing users to easily upload images and receive real-time predictions. Deployment on the Streamlit Sharing platform ensures accessibility to users worldwide.
+
+Through user testing and feedback, the application has been refined to enhance usability and performance. The project underscores the potential of combining deep learning with web development to create impactful and accessible applications for diverse use cases.")
 st.markdown('''
 <style>
 [data-testid="stMarkdownContainer"] ul{

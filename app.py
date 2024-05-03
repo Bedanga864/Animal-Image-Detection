@@ -12,7 +12,7 @@ st.set_page_config(
 
 st.sidebar.success("Select a page👆")
 
-st.title("Animal Image Detection Application",divider='rainbow')
+st.title("Animal Image Detection Application")
 st.header("Image Classifier ",divider='rainbow')
 
 model = tf.keras.models.load_model("Animal_Classification.h5")
